@@ -146,7 +146,7 @@
 			<div>
 				<h3 class="text-lg leading-6 font-medium text-gray-900">Image</h3>
 				<p class="mt-1 text-sm text-gray-500">
-					Recommended to add for more interest! Show's up in lists, at recent recipies or profile
+					Recommended to add for more interest! Shows up in lists, on recent recipies, or profile
 					page (you can upload a file and get a link on <a
 						class="underline"
 						target="_blank"
@@ -170,7 +170,7 @@
 				<div>
 					<h3 class="text-lg leading-6 font-medium text-gray-900">Tags*</h3>
 					<p class="mt-1 text-sm text-gray-500">
-						Please add some tags. Start typing to view autocomplete's or click enter for custom Tags
+						Please add some tags. Start typing to view autocompletes or click enter for custom tags
 					</p>
 				</div>
 
@@ -183,14 +183,14 @@
 				<div>
 					<h3 class="text-lg leading-6 font-medium text-gray-900">Summary</h3>
 					<p class="mt-1 text-sm text-gray-500">
-						Show's up in lists, at recent recipies or profile page
+						Shows up in lists, on recent recipies, or profile page
 					</p>
 				</div>
 
 				<div class="sm:col-span-6">
 					<div class="mt-1">
 						<textarea
-							placeholder="Some breef discription of the dish (can also be the same as chef's notes)"
+							placeholder="A brief description of the dish (can also be the same as chef's notes)"
 							bind:value={summary}
 							rows="3"
 							class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border border-gray-300 rounded-md"
@@ -203,14 +203,14 @@
 				<div>
 					<h3 class="text-lg leading-6 font-medium text-gray-900">Chef's Notes</h3>
 					<p class="mt-1 text-sm text-gray-500">
-						Some notes about this recipe. (Markdown is supported)
+						Some notes about this recipe. (Markdown is supported.)
 					</p>
 				</div>
 
 				<div class="sm:col-span-6">
 					<div class="mt-1">
 						<textarea
-							placeholder="Here are some Chef's notes. Like where the recipe came from, and more additional information."
+							placeholder="Here are some chef's notes, such as where the recipe came from, and additional information."
 							bind:value={chefsnotes}
 							rows="6"
 							class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border border-gray-300 rounded-md"
@@ -248,7 +248,7 @@
 
 				<div class="sm:col-span-4">
 					<label for="email" class="block text-sm font-medium text-gray-700">
-						🍽️ Servings (persons)
+						🍽️ Servings (people)
 					</label>
 					<div class="mt-1">
 						<input
@@ -296,7 +296,7 @@
 						<div class="mt-1">
 							<textarea
 							bind:value={additionalMarkdown}
-							placeholder="Use **markdown**, you can add a image or video like this ![alt text](https://example.com/test.mp4) or a [link](https://example.com)"
+							placeholder="Use **markdown**, you can add an image or video, like this![alt text](https://example.com/test.mp4) or a [link](https://example.com)"
 							rows="6"
 							class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border border-gray-300 rounded-md"
 							/>
